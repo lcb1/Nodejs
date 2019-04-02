@@ -1,0 +1,6 @@
+var secure=require("crypto");
+var mask=secure.createHash("md5");
+var MaskSrc=mask.update(src).digest("hex");
+
+
+注意一个源字符串对应一个mask
