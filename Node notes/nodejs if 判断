@@ -1,0 +1,23 @@
+var a="";
+var b=0;
+var c=null;
+var d=undefined;
+if(a)
+{
+    console.log(a);
+}
+if(b)
+{
+    console.log(b);
+}
+if(c)
+{
+    console.log(c);
+}
+if(d)
+{
+    console.log(d);
+}
+console.log("Test");
+
+false ：“” 0 null undefined
