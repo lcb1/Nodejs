@@ -1,0 +1,7 @@
+new Date().getTime();
+
+Date().parse(new Date());
+
+new Date().valueof();
+
+Date.now(); 效率最高
